@@ -1,0 +1,344 @@
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* Cabeçalho */
+.container {	
+	width: 500px;
+	
+}
+
+header {
+	background: var(--secondary-color);
+	display: flex;
+	justify-content: space-evenly;
+	color: var(--primary-color);
+}
+
+header .menu {
+	display: flex;
+}
+
+header .menu nav {
+	display: flex;
+	flex-direction: column;
+}
+
+header .menu nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 400px;
+}
+
+header .menu nav ul li {
+	display: flex;
+	font-weight: bold;
+	text-transform: uppercase;	
+}
+
+header .menu nav ul li a{
+	text-decoration: none;
+	color: var(--primary-color);
+	cursor: pointer;
+	height: 2rem;
+	width: 7rem;
+	border: 1p solid black;
+	
+	text-align: center;
+	align-content: center;
+}
+
+header .menu nav ul li a:hover{
+	background: var(--ternary-color);
+	transform: scale(1.2);
+	border-radius: 8px;
+	color: black;
+}
+
+.two {
+	background: ;
+	display: flex;
+}
+
+.centralize {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: ;
+	width: 100%;
+}
+
+.centralize div {
+	align-items: center;
+	padding: 0 30px;
+}
+
+button{
+	color: var(--primary-color);
+	height: 2rem;
+	width: 7rem;
+	border: none;
+}
+
+button a{
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+.color-red{
+	
+	border-radius: 30px;
+}
+
+button, button a:hover{
+	border: 1px solid black;
+	border-radius: 30px;
+	color: red;
+	 transform: scale(1.05);
+	 font-weight: bold;
+	 text-transform: uppercase;
+}
+
+.color-red:hover{
+	border: 1px solid red;
+	background-color: black;
+	color: red;
+	font-weight: bold;
+	border-radius: 30px;	
+	transform: scale(1.05);
+	 text-transform: uppercase;
+}
+/* Cabecalho -final */
+
+
+/* Corpdo do site*/
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* início do quadrado verde*/
+.verde {
+	background: green;
+	width: 0 auto;
+}
+
+.verde .quadrados {
+	display: flex;
+	margin: 20px 0;
+	width: 100%;
+}
+
+.verde .quadrados .quadrados_esquerdo {
+	width: 15%;
+	background: white;
+	margin: 0 0 0 5%;
+}
+
+
+.verde .quadrados .quadrados_central {
+	width: 65%;
+	background: black;
+}
+
+
+.verde .quadrados .quadrados_direito {
+	width: 10%;
+	background: white;
+}
+
+.verde .quadrados .quadrados_esquerdo .quaseTopo {
+	background: purple;
+	margin-top: 100px;
+	height: 80px;
+}
+
+/* fim do quadrado verde*/
+
+/* area ouro - começo*/
+.ouro {
+	background: gold;
+}
+
+.ouro .carrosel {
+	display: flex;
+}
+
+.ouro .carrosel .carrosel_card {
+	width: 150px;
+	height: 100px;
+	background: wheat;
+	padding: 10px;
+	margin: 10px;
+}
+
+/* area ouro - final */
+
+
+/* area vermelho - inicio */
+.vermelho {
+	background: red;
+	display: flex;
+}
+
+.vermelho .coluna_esquerda {
+	background: gainsboro;
+
+	width: 50%;
+	height: 300px;
+}
+
+.vermelho .coluna_direita {
+	background: firebrick;
+	width: 50%;
+}
+
+/* area vermelho - final */
+
+/* area cinza - começo */
+.cinza {
+	background: gray;
+	display: flex;
+	flex-direction: column;
+}
+
+.cinza .cor_cinza {
+	background: gainsboro;
+	display: flex;
+}
+
+.cinza .cor_cinza div {
+	background: red;
+	width: 30%;
+	margin: 10px;
+}
+
+/* area cinza - final */
+
+/* area salmon - começo */
+
+.salmon {
+	background: salmon;
+	display: flex;
+
+}
+
+.salmon .salmon_esquerda {
+	background: rebeccapurple;
+	display: flex;
+	flex-direction: column;
+}
+
+.salmon .salmon_direida {
+	background: yellowgreen;
+	display: flex;
+	flex-direction: column;
+}
+
+/* area salmon - final */
+
+/* area azul - começo */
+.azul {
+	background: blue;
+	display: flex;
+	flex-direction: column;
+}
+
+.azul .parceiros {
+	display: flex;
+	justify-content: space-around;
+}
+
+.azul .parceiros div {
+	display: flex;
+	margin: 0 10px;
+	background: wheat;
+}
+
+/* area azul - final */
+
+
+/* area purpura - começo */
+.purpura {
+	background: purple;
+	display: flex;
+	flex-direction: row;
+}
+
+.purpura .cor_branca {
+	display: flex;
+	background: wheat;
+}
+
+.purpura .cor_rosa {
+	background: rgb(121, 37, 37);
+	display: flex;
+}
+
+/* area purpura - final */
+
+
+/*Rodapé*/
+
+footer {
+	background: red;
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+}
+
+footer .rodape {
+	background: blue;
+	display: flex;
+}
+
+
+footer .rodape .lado_direito {
+	background: rgb(43, 42, 42);
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	width: 70%;
+	color: white;
+}
+
+footer .rodape .lado_esquerdo {
+	background: rgb(29, 22, 22);
+	display: flex;
+	color: wheat;
+	height: 300px;
+	width: 30%;
+}
+
+footer .final-rodape {
+	background: #833AB4;
+	background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+	color: white;
+	height: 30px;
+}
+
+.tamanhoP {
+	font-size: .5rem;
+}
+
+footer,
+.social_media{
+	display: flex;
+	
+}
+
+footer .social_media img{
+	width: 40px;
+	height: 40px;
+	margin:  20px;
+	border-radius: 60%;
+	background: wheat;
+}
+
+footer .social_media img:hover{
+	background: rgb(211, 89, 89);
+}

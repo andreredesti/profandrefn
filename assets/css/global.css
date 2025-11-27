@@ -1,0 +1,57 @@
+/* Variáveis de cores*/
+:root {
+    --primary-color: #FFFAFA;;
+    --secondary-color: #070707;
+    --ternary-color: rgb(66, 96, 228);
+    --color-black: #000;
+    --color-white: #fff;
+    --primary-font:  "Arial, Helvetica, sans-serif";
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	background: var(--background-color);
+   }
+
+/* display - das seções das paginas que ficam no dropdown - cursos*/
+.hidden {
+  display: none;
+}
+   
+/* Estilo do Dropdown */
+.dropbtn {
+    background: rgb(96, 99, 99);
+    color: var(--ternary-color);
+    padding: 16px;
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none; /*trocar a para none*/
+    position: absolute;
+    background: #f1f1f1;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px, 0pc rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: var(--color-black);
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background: #ddd;
+}

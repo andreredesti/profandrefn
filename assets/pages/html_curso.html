@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- CSS - começo -->
+	<link rel="stylesheet" href="/assets/css/reset.css">
+	<link rel="stylesheet" href="/assets/css/global.css">
+
+	<!-- link do bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+	<!-- CSS - fim-->
+	<title>Cursos</title>
+
+</head>
+
+<body>
+	 <nav class="navbar navbar-expand-lg bg-primary border-bottom border-body " data-bs-theme="dark">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Cursos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item" >HTML</a></li>
+                            <li><a href="/assets/pages/css_curso.html" class="dropdown-item" >CSS</a></li>
+                            <li><a href="/assets/pages/javascript_curso.html" class="dropdown-item" >Javascript</a></li>
+                            <li><a href="/assets/pages/python_curso.html" class="dropdown-item" >Python</a></li>
+                        </ul>
+                    </li>
+					<li class="nav-item">
+						<a href="/assets/pages/projetos.html" class="nav-link" aria-current="page">Projetos</a>
+					</li>
+					<li class="nav-item">
+						<a href="/assets/pages/sobre.html" class="nav-link active" aria-current="page">Sobre</a>
+					</li>
+					<li class="nav-item">
+						<a href="/assets/pages/links.html" class="nav-link">LinkS</a>
+					</li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link active" aria-current="page" href="#">Contato</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+	<div class="container mt-3">
+		<div class="row">
+			<div class="col-md-3">
+				<h2 class="">HTML</h2>
+				<p class="mt-3"><a href="">Conheça mais sobre o HTML</a></p>
+			</div>
+			<div class="col-md-3">
+				<h2>CSS</h2>
+				<p class="mt-3"><a href="">Conheça mais sobre o CSS</a></p>
+			</div>
+			<div class="col-md-3">
+				<h2>JAVASCRIPT</h2>
+				<p class="mt-3"><a href="">Conheça mais sobre o JAVASCRIPT</a></p>
+			</div>
+			<div class="col-md-3">
+				<h2>PYTHON</h2>
+				<p class="mt-3"><a href="">Conheça mais sobre o PYTHON</a></p>
+			</div>
+		</div>
+		<hr class="bg-primary">
+	</div>
+
+	<main class="container">
+		<!-- Secções do conteúdo principal. Só vai aparecer os título do conteúdo-->
+		<section class="container mt-3">
+			<article class="col">
+				<div>
+					<h4 class="text-success fw-bpld font-monospace fs-1 fw-900"> Linguagem de Marcação -
+						<b class="text-danger"> <strong>HTML</strong></b>
+					</h4>
+					<p class="mt-3">
+
+						O <strong>HTML</strong> é uma linguagem de marcação (e não uma linguagem de programação, pois
+						não possui lógica
+						de execução) usada para criar e estruturar o conteúdo de uma página web. Ele funciona como o
+						esqueleto de um website, definindo a organização dos elementos na tela.
+					</p>
+
+					<div>
+						<ul>
+							<li>
+								<b>Marcação</b>: O HTML utiliza tags (como <code>&lt;p&gt;</code> para parágrafo ou
+								<code>&lt;img&gt;</code> <img> para imagem) para "marcar" e escrever o conteúdo,
+								informando ao navegador o que cada parte representa (título,
+								lista, link, etc.).
+							</li>
+
+							<li>
+								<b>Hipertexto</b>: O "HT" de HTML refere-se à capacidade de conectar documentos através
+								de hiperlinks, o que é essencial para a navegação e a própria interligação de toda a
+								web.
+							</li>
+							</li>
+						</ul>
+					</div>
+
+					<p class="mt-3">
+						É bom lembrar que com o <b>HTML</b> não há a preocupação com cores, ações e nem interatividade
+						da página.
+						Para deixamos a página ou aplicação "elegante" faremos uso do <strong>CSS</strong> e para
+						criarmos interatividade usaremos o <strong>Javascript</strong>, <strong>PHP</strong>,
+						<strong>Python</strong> ou outra
+						linguagem de programação.
+					</p>
+
+					<p>
+						O <strong>HTML</strong> pode ser escrito a partir de um bloco de notas ou usando-se um editor de
+						texto.
+						Com o <b>HTML</b> podemos inserir os dados para uma página <b>WEB</b> ou outra aplicação que o
+						utilize para estruturação da mesma. O propósito do <b>HTML</b> é o de estruturar os textos,
+						parágrafos,
+						imagens e demais elementos da aplicação ou página <b>WEB</b>.
+					</p>
+
+					<ul>
+						<!-- a ideia é que cada button abra uma modal com possibilidade de reduzir o html total-->
+						<li class="padrao_documento">
+							<h4>Estrutura do HTML</h4>
+							<button class="toggle-btn" data-target="conteudo1">Mostrar</button>
+							<!--button class="btn btn-primary my-3 toggle-btn"  data-target="conteudo1">Mostrar</button-->
+							<div class="conteudo hidden" id="conteudo1">
+
+								<div>
+									<p>O <b>HTML</b> funciona como uma caixa dentro de outra caixa. Uma caixa maior e
+										dentro
+										dela caixas menores. A caixa principal engloba as demais caixas que forem
+										criadas
+										dentro dela.
+									</p>
+								</div>
+								<div class="" id=""> <!-- Ajustar-->
+									<!-- deixar essas imagens lada a lado -->
+									<div class="container">
+										<img width="350" height="350" src="/assets/img/img-cursos/estrutura_html.PNG"
+											alt="estrutura básica do HTML">
+									</div>
+									<div class="container">
+										<img width="350" height="350" src="/assets/img/img-cursos/estrutura_html_02.PNG"
+											alt="estrutura básica do HTML">
+									</div>
+
+
+									<p>Podemos criar arrumações diversas dentro da caixa principal do HTML. Para isso
+										precisamos pensar em qual será o <strong><a href="">Layout</a></strong> da nossa
+										aplicação.
+									</p>
+								</div>
+								<!--div>
+                                <button type="button"
+                                    onclick="document.querySelector('.hidden').style.display = 'none';">
+                                    Esconder os textos
+                                </button>
+                                </div-->
+
+
+								<!--button type="button" onclick="toggleHidden2('esconde_auxiliar')">
+                                    esconde2
+                                </button-->
+
+							</div>
+						</li>
+
+						<li class="padrao_documento">
+							<h4>Principais TAGS</h4>
+							<button class="toggle-btn" data-target="conteudo2">Mostrar</button>
+							<!--button class="btn btn-primary my-3 toggle-btn"  data-target="conteudo2" >Mostrar</button-->
+							<div class="conteudo hidden" id="conteudo2">
+								<div>
+									<h5> Algumas das principais tags do <b>HTML</b></h5>
+
+									<div>
+										<ul>
+											<li>
+												<p>
+													A tag <code>&lthtml&gt</code> é a mãe de todas tags de uma página.
+													Ela é inserida no começo e no final do documento web. Dentro desta
+													tag
+													ficará todo
+													o conteúdo da aplicação. A tag <code>&lthtml&gt</code> possui
+													abertura e
+													fechamento:
+													<code>&lthtml&gt</code><code>&lt/html&gt</code>
+												</p>
+											</li>
+
+											<li>
+												<p>
+													Na estruturação do documento html há várias tags para se conhecer. A
+													tag
+													<code>&lthead&gt</code>
+													é responsável pelas informações de comunicação no navegadores de
+													internet. Ela possui
+													informações que não é vista pelo usuário mas são importantes para
+													transferência de dados
+													entre as várias aplicações WEB. São inseridas dentro dela os
+													metadados.
+													Várias outras tags
+													ficarão dentro dela.
+												</p>
+											</li>
+
+											<li>
+												<p>
+													O conteúdo principal da aplicação ficarão dentro da tag
+													<code>&ltbody&gt</code><code>&lt/body&gt</code>.
+													O cabeçalho, o conteúdo principal, as diversas seções, os títulos e
+													texto, as imagens e demais elementos
+													do documento ficarão entre essa tag.
+												</p>
+											</li>
+
+											<li>
+												<p>
+													Para títulos e subtítulos podemos usar a tag <code>&lth&gt</code>.
+													Ela
+													possue um número
+													que pode ser de 1 a 6. Para o título principal usa-se
+													<code>&lth1&gt</code> e para os subtítulos
+													os demais números. Ela também tem abertura e fechamento.
+												</p>
+											</li>
+
+											<li>
+												<p>
+													A tag <code>&ltp&gt</code> é utilizada na criação de parágrafos. Um
+													texto que for inserido
+													na página pode usar essa tag. Ela também possui abertura e
+													fechamento.
+													A tag <code>&ltp&gt</code> possui abertura e fechamento:
+													<code>&lt/p&gt</code>
+												</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+			</article>
+			 <hr class="bg-primary">
+		</section>
+
+	</main>
+
+	<!-- scripts da página  -->
+	 <script src="/assets/js/dropdown.js"></script>
+
+	<!-- Mostrar e esconder div - script -->
+	<script src="/assets/js/toggle_btn.js"></script>
+
+	
+
+	<!-- Script do bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
