@@ -30,6 +30,7 @@
     font-weight: 600;
     border: none;
     cursor: pointer;
+    color: rgb(77, 77, 228);
 }
 
 .dropbtn:hover{

@@ -1,5 +1,4 @@
 // Esconde e mostra o conteúdo de várias divs
-
 document.querySelectorAll(".toggle-btn").forEach(btn => {
     btn.addEventListener('click', () => {
         const divId = btn.dataset.target;
