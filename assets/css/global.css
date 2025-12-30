@@ -56,3 +56,7 @@
 .dropdown-content a:hover{
     background: #ddd;
 }
+
+h2{
+    font-size: 25px;
+}
