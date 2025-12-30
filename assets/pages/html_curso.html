@@ -91,14 +91,14 @@
 		<section class="container mt-3">
 			<article class="col">
 				<div>
-					<h4 class="text-success fw-bpld font-monospace fs-1 fw-900"> Linguagem de Marcação de HiperTexto -
-						<b class="text-success"> <strong>HTML</strong></b>
+					<h4 class="text-success fw-bpld font-monospace fs-1 fw-900">
+						<b class="text-success"> <strong>HTML</strong></b> - Linguagem de Marcação de HiperTexto.
+
 					</h4>
 					<p class="mt-3">
-
 						O <strong>HTML</strong> é uma linguagem de marcação (e não uma linguagem de programação, pois
-						não possui lógica
-						de execução) usada para criar e estruturar o conteúdo de uma página web. Ele funciona como o
+						não possui lógica de execução) usada para criar e estruturar o conteúdo de uma página web. Ele
+						funciona como o
 						esqueleto de um website, definindo a organização dos elementos na tela.
 					</p>
 
@@ -115,7 +115,6 @@
 								<b>Hipertexto</b>: O "HT" de HTML refere-se à capacidade de conectar documentos através
 								de hiperlinks, o que é essencial para a navegação e a própria interligação de toda a
 								web.
-							</li>
 							</li>
 						</ul>
 					</div>
@@ -169,7 +168,8 @@
 									</div>
 									<br>
 									<p>Podemos criar arrumações diversas dentro da caixa principal do HTML. Para isso
-										precisamos pensar em qual será o <strong><a href="">Layout</a></strong> da nossa
+										precisamos pensar em qual será o <strong><a href="#">Layout</a></strong> da
+										nossa
 										aplicação.
 									</p>
 								</div>
@@ -189,13 +189,9 @@
 											<li>
 												<p>
 													A tag <code>&lthtml&gt</code> é a mãe de todas tags de uma página.
-													Ela é inserida no começo e no final do documento web. Dentro desta
-													tag
-													ficará todo
-													o conteúdo da aplicação. A tag <code>&lthtml&gt</code> possui
-													abertura e
-													fechamento:
-													<code>&lthtml&gt</code><code>&lt/html&gt</code>
+													Ela é inserida no começo e no final do documento web. A tag <code>&lthtml&gt</code> possui
+													abertura e fechamento:
+													<code>&lthtml&gt</code>Todo o conteúdo da aplicação ficará dentro desta tag.<code>&lt/html&gt</code>.
 												</p>
 											</li>
 
@@ -204,31 +200,32 @@
 													Na estruturação do documento html há várias tags para se conhecer. A
 													tag
 													<code>&lthead&gt</code>
-													é responsável pelas informações de comunicação no navegadores de
-													internet. Ela possui
-													informações que não é vista pelo usuário mas são importantes para
-													transferência de dados
-													entre as várias aplicações WEB. São inseridas dentro dela os
-													metadados.
-													Várias outras tags
-													ficarão dentro dela.
+													é responsável pelas informações de comunicação nos navegadores de
+													internet. Ela possui informações que não é vista pelo usuário mas
+													são importantes para
+													transferência de dados entre as várias aplicações WEB. São inseridas
+													dentro dela os
+													metadados. Várias outras tags ficarão dentro dela. Ela também tem
+													abertura e fechamento:
+													<code>&lthead&gt</code><code>&lt/head&gt</code>.
 												</p>
 											</li>
 
 											<li>
 												<p>
-													O conteúdo principal da aplicação ficarão dentro da tag
+													O conteúdo principal da aplicação ficam dentro da tag
 													<code>&ltbody&gt</code><code>&lt/body&gt</code>.
 													O cabeçalho, o conteúdo principal, as diversas seções, os títulos e
-													texto, as imagens e demais elementos
-													do documento ficarão entre essa tag.
+													texto, as imagens e demais elementos do documento ficarão entre essa
+													tag.
 												</p>
 											</li>
 
 											<li>
 												<p>
 													Para títulos e subtítulos podemos usar a tag <code>&lth&gt</code>.
-													Ela possue um número que pode ser de 1 a 6. Para o título principal usa-se
+													Ela possue um número que pode ser de 1 a 6. Para o título principal
+													usa-se
 													<code>&lth1&gt</code> e para os subtítulos
 													os demais números. Ela também tem abertura e fechamento.
 												</p>
@@ -237,16 +234,52 @@
 											<li>
 												<p>
 													A tag <code>&ltp&gt</code> é utilizada na criação de parágrafos. Um
-													texto que for inserido na página pode usar essa tag. Ela também possui abertura e
-													fechamento.
-													A tag <code>&ltp&gt</code> possui abertura e fechamento:
-													<code>&lt/p&gt</code>
+													texto que for inserido na página pode usar essa tag. Ela possui abertura e fechamento: 
+													<code>&ltp&gt</code>Seu texto fica aqui!<code>&lt/p&gt</code>.
+												</p>
+											</li>
+
+											<li>
+												<p>
+													<title> </title>
+													O título da página é inserido dentro da tag <code>&lttitle&gt</code>O título da página ficar aqui!<code>&lt/title&gt</code>. 
+													Esse elemento será visível na aba de navegação do site.
+												</p>
+											</li>
+
+											<li>
+												<p>
+													Para inserir imagens usamos a tag <code>&ltimg&gt</code>. Essa tag não tem fechamento.
+													Há 2 atributos importantes nesta tag: <code>&ltsrc&gt</code> e 
+													<code>&ltalt&gt</code>, o primeiro informa a localização da imagem e o
+													segundo é usado para descrever a imagem. Isso é importante para os buscadores da
+													internet, para pessoas com deficiência visual e também como texto alternativo caso a imagem 
+													não seja encontrada.													
 												</p>
 											</li>
 										</ul>
 									</div>
 								</div>
 							</div>
+						</li>
+
+						<li class="padrao_documento">
+							<h4>Glossário de termos</h4>
+							<button class="toggle-btn mostrarEsconder bg-primary my-2 "
+								data-target="conteudo3">Mostrar</button>
+							<div class="conteudo hidden" id="conteudo3">
+								<dl>
+									<dt>HTML - HyperText Markup Language</dt>
+									<dd>Linguagem de marcação para criar páginas web.</dd>
+
+									<dt>CSS - Cascading Style Sheets</dt>
+									<dd>Linguagem para estilizar páginas web.</dd>
+									<dt>JavaScript</dt>
+									<dd>Linguagem de programação para interatividade em páginas web.</dd>
+									<dt>TAG</dt>
+									<dd>Refere-se aos nomes das marcações utilizadas no documento HTML. </dd>
+								</dl>
+								<div>
 						</li>
 			</article>
 			<hr class="bg-primary">
@@ -264,7 +297,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 	<script src="/assets/js/footer.js"></script>
-    <my-footer></my-footer>
+	<my-footer></my-footer>
 </body>
 
 </html>
